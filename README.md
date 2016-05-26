@@ -12,7 +12,7 @@ I will say that I am using a bredboard to connect one of the electrodes via wire
 here is the LED blinking code
 
 
-// compiler error handling
+
 #include "Compiler_Errors.h"
 
 // touch includes
