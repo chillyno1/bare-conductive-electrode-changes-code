@@ -8,27 +8,3 @@ A code is needed to replace the main electrodes with the new ones.
 Do I need to change the MPR.121.pinmode(4, output); code to allow me to use the other electrodes?
 
 I will say that I am using a bredboard to connect one of the electrodes via wires and attaching a LED. I cannot get the LED to blink with this code. Any ideas?
-
-here is the LED blinking code
-
-
-
-#include "Compiler_Errors.h"
-
-#include <MPR121.h>
-#include <Wire.h>
-#define MPR121_ADDR 0x5C
-#define MPR121_INT 4
-
-
-
-void setup(){  
-  Serial.begin(57600);
-  
-  //INITIALIZE THE PINS YOU ARE USING
-  MPR121.pinMode(4, OUTPUT);
- 
- 
-}
-
-void loop(){
