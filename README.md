@@ -14,8 +14,7 @@ here is the LED blinking code
 
 
 #include "Compiler_Errors.h"
-{
-// touch includes
+
 #include <MPR121.h>
 #include <Wire.h>
 #define MPR121_ADDR 0x5C
